@@ -18,7 +18,7 @@
         max-width: 768px;
     }
     @include sm{
-        background-color: red;
+        background-color: rgb(212, 174, 174);
         max-width: 640px;
     }
 }
