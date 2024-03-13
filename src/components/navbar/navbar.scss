@@ -53,6 +53,10 @@ nav{
     justify-content: flex-end;
     height: 100%;
 
+    @include md{
+        background-color: transparent;
+    }
+
     a{
         padding: 12px 24px;
         margin: 20px;
@@ -65,6 +69,12 @@ nav{
     .menuIcon{
         display: none;
 
+        img{
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
+        }
+
         @include sm{
             display: initial;
         }
@@ -74,7 +84,7 @@ nav{
         width: 50%;
         position: absolute;
         top: 0;
-        right: 0;
+        right: -50%;
         background-color: black;
         color: white;
         height: 100vh;
