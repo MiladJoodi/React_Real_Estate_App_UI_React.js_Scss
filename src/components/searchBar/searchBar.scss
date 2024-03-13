@@ -1,0 +1,51 @@
+.searchBar{
+    .type{
+        button{
+            padding: 16px 36px;
+            border: 1px solid #999;
+            cursor: pointer;
+            background-color: white;
+            text-transform: capitalize;
+            border-bottom: none;
+
+            &.active{
+                background-color: black;
+                color: white;
+            }
+            &:first-child{
+                border-top-left-radius: 5px;
+                border-right: none;
+            }
+            &:last-child{
+                border-top-right-radius: 5px;
+                border-left: none;
+            }
+        }
+    }
+
+    form{
+        border: 1px solid #999;
+        display: flex;
+        justify-content: space-between;
+        height: 64px;
+        gap: 5px;
+
+        input{
+            border: none;
+            padding: 0px 10px;
+            width: 200px;
+        }
+
+        button{
+            border: none;
+            cursor: pointer;
+            background-color: #fece51;
+            flex: 1;
+
+            img{
+                width: 24px;
+            }
+        }
+
+    }
+}

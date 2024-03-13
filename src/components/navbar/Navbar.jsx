@@ -10,7 +10,7 @@ const Navbar = () => {
             {/* Navbar -> Left */}
             <div className="left">
                 <a href="/" className="logo">
-                    <img src="/logo.png" alt="" />
+                    <img src="/favicon.png" alt="" />
                     <span>Real Estate</span>
                 </a>
                 <a href="">Home</a>
