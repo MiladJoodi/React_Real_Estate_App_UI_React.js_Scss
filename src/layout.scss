@@ -1,7 +1,21 @@
+@import "./responsive.scss";
+
 .layout{
     background-color: rgb(255, 238, 255);
     height: 100vh;
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include lg{
+        background-color: green;
+    }
+    @include md{
+        background-color: blue;
+    }
+    @include sm{
+        background-color: red;
+    }
 }
