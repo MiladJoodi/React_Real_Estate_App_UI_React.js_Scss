@@ -11,7 +11,24 @@ height: 100%;
         flex-direction: column;
         justify-content: center;
         gap: 50px;
-        background-color: red;
+        height: 100%;
+
+        .title{
+            font-size: 64px;
+        }
+
+        .boxes{
+            display: flex;
+            justify-content: space-between;
+
+            h1{
+                font-size: 36px;
+            }
+            h2{
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
     }
 }
 .imgContainer{
