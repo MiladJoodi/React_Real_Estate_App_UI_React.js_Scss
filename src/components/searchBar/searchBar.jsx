@@ -1,11 +1,11 @@
 import "./searchBar.scss"
 
-const searchBar = () => {
+const SearchBar = () => {
     return (
-        <div className="search">
+        <div className="searchBar">
             Enter
         </div>
     );
 }
 
-export default searchBar;
+export default SearchBar;
