@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .homePage{
 display: flex;
 height: 100%;
@@ -13,13 +15,28 @@ height: 100%;
         gap: 50px;
         height: 100%;
 
+        @include md{
+            padding: 0;
+        }
+        @include sm{
+            justify-content: flex-start;
+        }
+
         .title{
             font-size: 64px;
+
+            @include lg{
+                font-size: 48px;
+            }
         }
 
         .boxes{
             display: flex;
             justify-content: space-between;
+
+            @include sm{
+                display: none;
+            }
 
             .box{
                 text-align: center;
@@ -27,6 +44,10 @@ height: 100%;
 
             h1{
                 font-size: 36px;
+
+                @include lg{
+                    font-size: 32px;
+                }
             }
             h2{
                 font-size: 20px;
@@ -42,10 +63,20 @@ height: 100%;
     display: flex;
     align-items: center;
 
+    @include md{
+        display: none;
+    }
+
     img{
         width: 115%;
         position: absolute;
         right: 0;
+
+        @include lg{
+            width: 105%;
+        }
     }
+
+    
 
 }
