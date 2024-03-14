@@ -1,11 +1,11 @@
 import "./singlePage.scss"
 
-const searchBar = () => {
+const SinglePage = () => {
     return (
-        <div className="searchBar">
-            Enter
+        <div className="">
+            SinglePage
         </div>
     );
 }
 
-export default searchBar;
+export default SinglePage;
