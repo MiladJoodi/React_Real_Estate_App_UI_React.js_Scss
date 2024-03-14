@@ -4,6 +4,7 @@
 
     .listContainer{
         flex: 3;
+        height: 100%;
 
         .wrapper{
             padding-right: 50px;
@@ -11,7 +12,8 @@
             flex-direction: column;
             gap: 50px;
             overflow-y: scroll;
-            
+            height: 100%;
+            padding-bottom: 50px;
         }
     }
     .mapContainer{

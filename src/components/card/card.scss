@@ -61,9 +61,40 @@
 
             .features{
                 display: flex;
-                gap: 200px;
+                gap: 20px;
                 font-size: 14px;
+
+                .feature{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    background-color: whitesmoke;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
             }
+
+            .icons{
+                display: flex;
+                gap: 20px;
+
+                .icon{
+                    border: 1px solid #999;
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover{
+                        background-color: lightgray;
+                    }
+                }
+
+            }
+
+
         }
     }
 }
