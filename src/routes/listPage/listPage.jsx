@@ -1,8 +1,8 @@
-import "./ListPage.scss"
+import "./listPage.scss"
 
 const ListPage = () => {
     return (
-        <div className="searchBar">
+        <div className="listPage">
             ListPage
         </div>
     );
