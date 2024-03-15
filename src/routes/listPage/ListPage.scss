@@ -1,48 +1,30 @@
-.listPage{
-    display: flex;
+@import "../../responsive.scss";
+
+.listPage {
+  display: flex;
+  height: 100%;
+
+  .listContainer {
+    flex: 3;
     height: 100%;
 
-    .listContainer{
-        flex: 3;
-        height: 100%;
-
-        .wrapper{
-            height: 100%;
-            padding-right: 50px;
-            display: flex;
-            flex-direction: column;
-            gap: 50px;
-            overflow:auto;
-            padding-bottom: 50px;
-          }
-
-          
+    .wrapper{
+      height: 100%;
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      overflow-y: scroll;
+      padding-bottom: 50px;
     }
-    .mapContainer{
-        flex: 2;
-        height: 100%;
-        background-color: #fcf5f3;
+  }
+  .mapContainer {
+    flex: 2;
+    height: 100%;
+    background-color: #fcf5f3;
+
+    @include md{
+      display: none;
     }
+  }
 }
-
-
-  .wrapper {
-    --sb-track-color: #ffffff;
-    --sb-thumb-color: #e2e2e2;
-    --sb-size: 10px;
-  }
-  
-  .wrapper::-webkit-scrollbar {
-    width: var(--sb-size);
-  }
-  
-  .wrapper::-webkit-scrollbar-track {
-    background: var(--sb-track-color);
-    border-radius: 8px;
-  }
-  
-  .wrapper::-webkit-scrollbar-thumb {
-    background: var(--sb-thumb-color);
-    border-radius: 8px;
-  }
-  
