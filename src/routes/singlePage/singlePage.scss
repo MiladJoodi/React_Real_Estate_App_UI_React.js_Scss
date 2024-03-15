@@ -77,6 +77,69 @@
 
         .wrapper{
             padding: 0px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            img{
+                width: 24px;
+                height: 24px;
+            }
+
+            .title{
+                font-weight: bold;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            
+            .feature{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img{
+                    background-color: rgba(254,205,81,0.209);
+                }
+
+                .featureText{
+                    span{
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .listVertical{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px 10px;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            .listHorizontal{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 10px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .sizes{
+                display: flex;
+                justify-content: space-between;
+
+                .size{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    background-color: white;
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+            }
         }
     }
 }
