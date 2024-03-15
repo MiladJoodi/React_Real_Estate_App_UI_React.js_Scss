@@ -39,15 +39,13 @@
           width: 20px;
         }
 
-        &.rightArrow {
+        &.right {
           transform: rotate(180deg);
         }
       }
     }
     .imgContainer {
       flex: 10;
-      height: 100vh;
-      display: flex;
 
       img {
         width: 100%;

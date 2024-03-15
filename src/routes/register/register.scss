@@ -1,4 +1,4 @@
-.login {
+.register {
   height: 100%;
   display: flex;
 
@@ -14,13 +14,13 @@
       flex-direction: column;
       gap: 20px;
 
-      input{
+      input {
         padding: 20px;
         border: 1px solid gray;
         border-radius: 5px;
       }
 
-      button{
+      button {
         padding: 20px;
         border-radius: 5px;
         border: none;
@@ -29,17 +29,17 @@
         font-weight: bold;
         cursor: pointer;
 
-        &:disabled{
-          background-color: #BED9D8;
+        &:disabled {
+          background-color: #bed9d8;
           cursor: not-allowed;
         }
       }
 
-      span{
+      span {
         color: rgba(255, 0, 0, 0.591);
       }
 
-      a{
+      a {
         font-size: 14px;
         color: gray;
         border-bottom: 1px solid gray;
