@@ -23,7 +23,9 @@ const SinglePage = () => {
                                 <span>{userData.name}</span>
                             </div>
                         </div>
-                        <button className="bottom"></button>
+                        <div className="bottom">
+                            {singlePostData.description}
+                        </div>
                     </div>
                 </div>
             </div>

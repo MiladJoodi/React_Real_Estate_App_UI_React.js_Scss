@@ -43,6 +43,16 @@
                         }
                     }
                     .user{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: baseline;
+                        justify-content: center;
+                        gap: 20px;
+                        padding: 0px 50px;
+                        border-radius: 10px;
+                        background-color: rgba(254,205,81,0.209);
+                        font-weight: 600;
+
                         img{
                             width: 50px;
                             height: 50px;
@@ -50,6 +60,11 @@
                             object-fit: cover;
                         }
                     }
+                }
+                .bottom{
+                    margin-top: 50px;
+                    color: #555;
+                    line-height: 20px;
                 }
             }
         }
