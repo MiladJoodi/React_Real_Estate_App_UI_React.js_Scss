@@ -1,4 +1,4 @@
-import HomePage from "./routes/homePage/homePage";
+import HomePage from "./routes/homePage/homePage.jsx";
 import {
   createBrowserRouter,
   RouterProvider,
